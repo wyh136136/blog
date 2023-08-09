@@ -175,7 +175,7 @@ ClickShowText:
     - 富强
 
   fontSize: 15px
-  random: false # 文字随机显示
+  random: true # 文字随机显示
   mobile: false
 
 canvas_ribbon:
@@ -183,7 +183,7 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false  #设置是否每次点击都更换綵带
+  click_to_change: true  #设置是否每次点击都更换綵带
   mobile: false # false 手机端不显示 true 手机端显示
 
 
@@ -224,3 +224,4 @@ error_404:
 favicon: /favicon.ico
 index_img: https://s1.ax1x.com/2023/08/04/pPFTxIO.jpg
 default_top_img: https://s1.ax1x.com/2023/08/04/pPFROS0.jpg
+
